@@ -6,20 +6,17 @@ title Terminal AI Assistant
 :: Clear screen
 cls
 
-:: ASCII Title
-echo ##################################################
-echo #                                                #
-echo #     _______                  _ _               #
-echo #    |__   __|                (_) |              #
-echo #       | |_ __ __ ___   _____ _| |_ ___  _ __   #
-echo #       | | '__/ _` \ \ / / _ \ | __/ _ \| '__|  #
-echo #       | | | | (_| |\ V /  __/ | || (_) | |     #
-echo #       |_|_|  \__,_| \_/ \___|_|\__\___/|_|     #
-echo #                                                #
-echo #             TERMINAL AI ASSISTANT              #
-echo #                                                #
-echo ##################################################
+:: ASCII Logo
 echo.
+echo      ██████╗ ███╗   ███╗██████╗      █████╗ ██╗
+echo     ██╔═══   ████╗ ████║██╔══██╗    ██╔══██╗██║
+echo     ██║      ██╔████╔██║██████╔╝    ███████║██║
+echo     ██║      ██║╚██╔╝██║██╔═══╝     ██╔══██║██║
+echo     ╚██████╔╝██║ ╚═╝ ██║██║         ██║  ██║██║
+echo      ╚═════╝ ╚═╝     ╚═╝╚═╝         ╚═╝  ╚═╝╚═╝
+echo.
+echo             Welcome to CMD-AI Terminal Assistant
+echo ------------------------------------------------
 
 :: Prompt for user name
 set "username=User"
